@@ -14,7 +14,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-self: center;
-    width: 50%;
+    width: 55%;
 }
 
 header {
@@ -38,6 +38,13 @@ header nav a {
     font-size: 1.2rem;
 }
 
+#link-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+}
+
 .default-button{
     background-color: var(--secondary-color);
     color: white;
@@ -48,7 +55,7 @@ header nav a {
     cursor: pointer;
 }
 
-main {
+article {
     width: 100%;
     display: flex;
     align-items: center;
@@ -61,16 +68,16 @@ main {
     font-weight: 700;
 }
 
-main p {
+article p {
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
 .default-paragraph {
     color: var(--terciary-color);
 }
 
-main h1 {
+article h1 {
     color: white;
     font-size: 5rem;
     font-weight: 700;
@@ -85,9 +92,15 @@ main h1 {
     height: 70vh;
 }
 
-.ponto-de-luz {
+.light-point {
     width: 0px;
     height: 0px;
     border-radius: 50%; /* Tornar o elemento circular */
     box-shadow: 0 0 1000px 200px rgb(249, 172, 84, 0.2) /* Aumentar o raio do box shadow */
+}
+
+h2 {
+    font-weight: 700;
+    color: white;
+    font-size: larger;
 }
