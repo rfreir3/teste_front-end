@@ -1,0 +1,93 @@
+:root{
+    --primary-color: #111317;
+    --secondary-color: #f9ac54;
+    --terciary-color: #d1d5db;
+    --quaternary-color: #35373b;
+}
+
+body{
+    background-color: var(--primary-color);
+    font: 400 16px 'Roboto', sans-serif;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    width: 50%;
+}
+
+header {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    padding: 20px 0;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+header nav a {
+    padding-top: 10px;
+    color: var(--terciary-color);
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.default-button{
+    background-color: var(--secondary-color);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+#detailed-label {
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+main p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.default-paragraph {
+    color: var(--terciary-color);
+}
+
+main h1 {
+    color: white;
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+#empty-strong {
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+}
+
+.main__image{
+    height: 70vh;
+}
+
+.ponto-de-luz {
+    width: 0px;
+    height: 0px;
+    border-radius: 50%; /* Tornar o elemento circular */
+    box-shadow: 0 0 1000px 200px rgb(249, 172, 84, 0.2) /* Aumentar o raio do box shadow */
+}
